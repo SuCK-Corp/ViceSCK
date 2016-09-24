@@ -59,7 +59,7 @@
         android:layout_gravity="bottom|end"
         android:elevation="6dp"
         app:pressedTranslationZ="12dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/favorites"
         app:backgroundTint="@android:color/holo_red_dark"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/fab1"
@@ -76,7 +76,7 @@
         android:layout_gravity="bottom|end"
         android:elevation="6dp"
         app:pressedTranslationZ="12dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/latest"
         app:backgroundTint="@android:color/holo_green_light"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
@@ -91,7 +91,7 @@
         android:layout_gravity="bottom|end"
         android:elevation="6dp"
         app:pressedTranslationZ="12dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/video"
         app:backgroundTint="@android:color/holo_purple"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/fab4"
@@ -106,7 +106,7 @@
         android:layout_gravity="bottom|end"
         android:elevation="6dp"
         app:pressedTranslationZ="12dp"
-        android:src="@android:drawable/ic_media_play"
+        android:src="@drawable/fire"
         app:backgroundTint="@android:color/holo_red_light"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
@@ -130,20 +130,6 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginRight="16dp" />
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="0dp"
-        android:layout_height="56dp"
-        android:background="?attr/colorPrimary"
-        android:theme="@style/Base.CardView"
-        app:popupTheme="@style/AppTheme.PopupOverlay"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/appBarLayout2"
-        app:layout_constraintTop_toBottomOf="@+id/appBarLayout2"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/appBarLayout2" />
 
     <TextView
         android:text="Categories"
