@@ -10,7 +10,7 @@
     android:background="@drawable/black">
 
     <android.support.v7.widget.Toolbar
-        android:layout_height="64dp"
+        android:layout_height="54dp"
         android:layout_width="match_parent"
         android:background="@color/colorPrimary"
         android:minHeight="?attr/actionBarSize"
