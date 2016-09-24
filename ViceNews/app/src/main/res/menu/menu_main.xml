@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.bboyc.vicenews.MainActivity">
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
@@ -12,7 +13,7 @@
     <item android:id="@+id/search"
         android:title="Search"
         android:icon="@drawable/se"
-        app:showAsAction="collapseActionView|ifRoom"
+        app:showAsAction="always"
         app:actionViewClass="android.support.v7.widget.SearchView" />
 
 
