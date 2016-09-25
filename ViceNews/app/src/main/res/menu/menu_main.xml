@@ -12,6 +12,7 @@
 
     <item android:id="@+id/search"
         android:title="Search"
+        android:orderInCategory="99"
         android:icon="@drawable/se"
         app:showAsAction="always"
         app:actionViewClass="android.support.v7.widget.SearchView" />
